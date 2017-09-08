@@ -38,7 +38,7 @@ export default class Scoregraph extends Component {
     return (
       <div>
     <h1 className="lol" style={{ marginLeft: '20vw', fontFamily: 'Encode Sans Condensed', fontSize: '5rem' }}>Comments Score Level Graph</h1>
-        <AreaChart width={1650} height={650} data={this.state.data}
+        <AreaChart width={1500} height={500} data={this.state.data}
           margin={{ top: 0, right: 30, left: 80 }}>
           <defs>
             <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
